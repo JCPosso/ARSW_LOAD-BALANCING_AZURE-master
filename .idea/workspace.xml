@@ -1,26 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0d6d6fb-8905-4764-920c-3ac2ef40a0b5" name="Changes" comment="" />
+    <list default="true" id="d0d6d6fb-8905-4764-920c-3ac2ef40a0b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/cmdfibo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/crar7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/crear2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/crear3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/crear4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/crear5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/estadisticaspostman1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/installpostman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/metricas1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/metricas2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/newsize.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/postmanp1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/primera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebafibo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebas2t1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebas2t10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebas2t2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebas2t3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebas2t4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebas2t5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebas2t6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebas2t7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebas2t8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebas2t9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebast1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebast10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebast2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebast3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebast4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebast5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebast6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebast7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebast8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/pruebast9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/reglazure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/resultadospostman1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part1/runfibo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="214hPP7u2kWKfJZEXQQAAGDOxga" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/part1" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/part1" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,5 +94,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
