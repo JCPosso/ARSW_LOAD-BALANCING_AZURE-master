@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0d6d6fb-8905-4764-920c-3ac2ef40a0b5" name="Changes" comment="part1 ok">
-      <change afterPath="$PROJECT_DIR$/images/part1/conexionazure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/part1/metricasazure2_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/part1/metricaszure2_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/part1/recursosAZURE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/part1/resultadospostman2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part2/LoadBalancerRule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part2/LoadBalancerRule2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part2/crearRedVirtual.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part2/grupoBackend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part2/loadbalancer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part2/loadbalancer2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part2/loadbalancer3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/part2/sondeoDeEstado.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/part1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
@@ -70,6 +72,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
