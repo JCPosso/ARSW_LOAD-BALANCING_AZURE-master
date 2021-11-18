@@ -203,21 +203,37 @@ Antes de continuar puede eliminar el grupo de recursos anterior para evitar gast
 
 ![](images/part2/part2-lb-create.png)
 
+![](images/part2/loadbalancer1.png)
+
+![](images/part2/loadbalancer2.png)
+
+![](images/part2/loadbalancer3.png)
+
 2. A continuación cree un *Backend Pool*, guiese con la siguiente imágen.
 
 ![](images/part2/part2-lb-bp-create.png)
+
+![](images/part2/grupoBackend.png)
 
 3. A continuación cree un *Health Probe*, guiese con la siguiente imágen.
 
 ![](images/part2/part2-lb-hp-create.png)
 
+![](images/part2/sondeoDeEstado.png)
+
 4. A continuación cree un *Load Balancing Rule*, guiese con la siguiente imágen.
 
 ![](images/part2/part2-lb-lbr-create.png)
 
+![](images/part2/LoadBalancerRule.png)
+
+![](images/part2/LoadBalancerRule2.png)
+
 5. Cree una *Virtual Network* dentro del grupo de recursos, guiese con la siguiente imágen.
 
 ![](images/part2/part2-vn-create.png)
+
+![](images/part2/crearRedVirtual.png)
 
 #### Crear las maquinas virtuales (Nodos)
 
