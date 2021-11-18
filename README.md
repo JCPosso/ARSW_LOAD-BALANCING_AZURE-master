@@ -42,6 +42,8 @@ Nos dirigimos al apartado y creamos la maquina virtual
 
     `ssh scalability_lab@xxx.xxx.xxx.xxx`
 
+![](images/part1/conexionazure.png)
+
 3. Instale node, para ello siga la sección *Installing Node.js and npm using NVM* que encontrará en este [enlace](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/).
 4. Para instalar la aplicación adjunta al Laboratorio, suba la carpeta `FibonacciApp` a un repositorio al cual tenga acceso y ejecute estos comandos dentro de la VM:
 
@@ -108,22 +110,40 @@ Nos dirigimos al apartado y creamos la maquina virtual
 
 11. Una vez el cambio se vea reflejado, repita el paso 7, 8 y 9.
 
-Pruebas:
-
+    1. Pruebas:
+* 1000000
 ![](images/part1/pruebas2t1.png)
+* 1010000
 ![](images/part1/pruebas2t2.png)
+* 1020000
 ![](images/part1/pruebas2t3.png)
+* 1030000
 ![](images/part1/pruebas2t4.png)
+* 1040000
 ![](images/part1/pruebas2t5.png)
+* 1050000
 ![](images/part1/pruebas2t6.png)
+* 1060000
 ![](images/part1/pruebas2t7.png)
+* 1070000
 ![](images/part1/pruebas2t8.png)
+* 1080000
 ![](images/part1/pruebas2t9.png)
+* 1090000
 ![](images/part1/pruebas2t10.png)
 
-Resultados postman:
+   2. Resultados de las pruebas:
 
 ![](images/part1/metricasfinales.png)
+
+   3.Resultados de ejecucion comando en postman
+![](images/part1/resultadospostman2.png)
+
+   4.Estadisticas en Azure de los resultados obtenidos con postman
+
+![](images/part1/metricasazure2_1.png)
+
+![](images/part1/metricaszure2_2.png)
 
 12. Evalue el escenario de calidad asociado al requerimiento no funcional de escalabilidad y concluya si usando este modelo de escalabilidad logramos cumplirlo.
 13. Vuelva a dejar la VM en el tamaño inicial para evitar cobros adicionales.
@@ -136,21 +156,43 @@ Resultados postman:
    3. Interfaz de red 
    4. Grupo de seguridad de red 
    5. Direccion IP publica 
-   6. Red virtual Network watcher
-   
+   6. Red virtual 
+   7. Network watcher
+  ![](images/part1/recursosAZURE.png) 
 2. ¿Brevemente describa para qué sirve cada recurso?
+   1. Disco virtual: Se ultiliza para el almacenamiento de datos 
+   2. Clave SSH: Es la clave de conexión para el acceso remoto al servicio 
+   3. Interfaz de red: Sirve para señalar la conexión que se da de manera física, entre los dispositivos y el sistema 
+   4. Grupo de seguridad de red: Se utiliza para filtrar el tráfico de la red 
+   5. Dirección IP pública: Permite acceder a la vm y a conexiones 
+   6. Red virtual: Es la red vlan que se crea para darle conexión a la maquina virtual 
+   7. Network watcher: Es un observador el cual administra el trafico externo de la red
 3. ¿Al cerrar la conexión ssh con la VM, por qué se cae la aplicación que ejecutamos con el comando `npm FibonacciApp.js`? ¿Por qué debemos crear un *Inbound port rule* antes de acceder al servicio?
+   1. La regla sirve para que  se indique  el servicio que se estará usando , en este caso se uso el puerto 3000.
+   
 4. Adjunte tabla de tiempos e interprete por qué la función tarda tando tiempo.
+   1. Tabla de tiempos
+      1. ![](images/part1/tabladetiempos.png)
+   2. Grafico
+      1. ![](images/part1/graficotiempos.png)
 5. Adjunte imágen del consumo de CPU de la VM e interprete por qué la función consume esa cantidad de CPU.
+   1. ![](images/part1/metricas1.png)
 6. Adjunte la imagen del resumen de la ejecución de Postman. Interprete:
     * Tiempos de ejecución de cada petición.
     * Si hubo fallos documentelos y explique.
+   ![](images/part1/resultadospostman1.png)
+   Estos fallos se deben a que al utilizar tantos recursos de la VM esta no tenia como responder a la solicitud realizada con postman generando así 4 fallos para las ejecuciones planeadas.
+   
 7. ¿Cuál es la diferencia entre los tamaños `B2ms` y `B1ls` (no solo busque especificaciones de infraestructura)?
+   1. La diferencia radica en que B2ms tiene 2 vCPUs, 8 GB de RAM, 1 data disk y cuesta $ 60.74 dólares mes mientras que B1ls tiene 1 vCPUs, 0.5 GB de RAM, 1 data disk y cuesta $ 3.80 dólares mensuales.
 8. ¿Aumentar el tamaño de la VM es una buena solución en este escenario?, ¿Qué pasa con la FibonacciApp cuando cambiamos el tamaño de la VM?
+   1. No del todo, ya que si bien ayuda a bajar los tiempos de ejecución , estos tiempos se ven afectados por la mala optimización del código. 
 9. ¿Qué pasa con la infraestructura cuando cambia el tamaño de la VM? ¿Qué efectos negativos implica?
+   1. Implicaria a que se tenga que recurrir a posibles sobrecostos , si no se hace una buena eleccion de la maquina y los recursos que netamente se vayan a usar.
 10. ¿Hubo mejora en el consumo de CPU o en los tiempos de respuesta? Si/No ¿Por qué?
+    1. Si, Se evidenció una constante mejora ya que la maquina tuvo mejores recursos para dar una respuesta adecuada a las solicitudes hechasd desd eel postman.
 11. Aumente la cantidad de ejecuciones paralelas del comando de postman a `4`. ¿El comportamiento del sistema es porcentualmente mejor?
-
+    1. mejora ya que la tasa de fallo se reduce entre más procedimientos se realizan. 
 ### Parte 2 - Escalabilidad horizontal
 
 #### Crear el Balanceador de Carga
